@@ -1,0 +1,1 @@
+java -jar dist\project36.jar

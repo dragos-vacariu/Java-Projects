@@ -1,0 +1,1 @@
+java -jar dist\project38.jar
