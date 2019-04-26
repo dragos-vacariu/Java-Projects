@@ -1,1 +1,0 @@
-java -jar dist\project14.jar

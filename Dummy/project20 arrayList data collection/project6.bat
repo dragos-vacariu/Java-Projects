@@ -1,1 +1,0 @@
-java -jar dist\project20.jar

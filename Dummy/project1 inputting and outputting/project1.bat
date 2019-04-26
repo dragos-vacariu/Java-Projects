@@ -1,1 +1,0 @@
-java -jar dist\project1.jar

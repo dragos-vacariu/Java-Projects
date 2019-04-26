@@ -1,1 +1,0 @@
-java -jar dist/project4.jar
