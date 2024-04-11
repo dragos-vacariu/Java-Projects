@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html  ng-app="myApplication" ng-controller="Controller">
 	<head>
-		<title>{{pageObject.page_title}} Java</title>
+		<title>{{pageObject.page_title}} Java Video</title>
 		<meta charset = "UTF-8">
 		<!--Global resources-->
-		<link rel="stylesheet" href="https://raw.githubusercontent.com/dragos-vacariu/portfolio/main/website_resources/global/css/global.css">
+		<link rel="stylesheet" href="../../../portfolio/website_resources/global/css/global.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-		<script src="https://raw.githubusercontent.com/dragos-vacariu/portfolio/main/website_resources/global/scripts/global_script.js"></script>
+		<script src="../../../portfolio/website_resources/global/scripts/global_script.js"></script>
 		
 		<!--Local resources-->
-		<link rel="stylesheet" href="../../website_resources/css/repository_page.css">
+		<link rel="stylesheet" href="../../website_resources/local/css/repository_page.css">
 	</head>
 	<body>
 		<nav>
-			<a class = "outer_href" href={{pageObject.page_navigation[0].value}}>{{pageObject.page_navigation[0].name}}</a>
+			<a class = "outer_href" href=../../../portfolio/{{pageObject.page_navigation[0].value}}>{{pageObject.page_navigation[0].name}}</a>
 			<div class="dropdown_menu">
 				<button id = "selected_dropdown_button"  class="dropdown_button">{{pageObject.page_navigation[1].name}}</button>
 				<div class="dropdown_content">
-					<a id = "selected_webpage" href={{pageObject.page_navigation_dropdown[0].value}}>{{pageObject.page_navigation_dropdown[0].name}}</a>
+					<a id = "selected_webpage" href=../../../{{pageObject.page_navigation_dropdown[0].value}}>{{pageObject.page_navigation_dropdown[0].name}}</a>
 					<a href="{pageObject.page_navigation[1].value}}">Link 2</a>
 					<a href="{pageObject.page_navigation[1].value}}">Link 3</a>
 					<a href="{pageObject.page_navigation[1].value}}">Link 3</a>
@@ -27,7 +27,7 @@
 					<a href="{pageObject.page_navigation[1].value}}">Link 3</a>
 				</div>
 			</div>
-			<a class = "outer_href"  href={{pageObject.page_navigation[2].value}}>{{pageObject.page_navigation[2].name}}</a>
+			<a class = "outer_href"  href=../../../portfolio/{{pageObject.page_navigation[2].value}}>{{pageObject.page_navigation[2].name}}</a>
 		</nav>
 		<header>
 			<div id="header_title">

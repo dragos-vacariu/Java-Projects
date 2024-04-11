@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html  ng-app="myApplication" ng-controller="Controller">
 	<head>
-		<title>{{pageObject.page_title}}</title>
+		<title>{{pageObject.page_title}} Java</title>
 		<meta charset = "UTF-8">
+		<!--Global resources-->
 		<link rel="stylesheet" href="../portfolio/website_resources/global/css/global.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 		<script src="../portfolio/website_resources/global/scripts/global_script.js"></script>
 	</head>
 	<body>
 		<nav>
-			<a class = "outer_href" href={{pageObject.page_navigation[0].value}}>{{pageObject.page_navigation[0].name}}</a>
+			<a class = "outer_href" href=../portfolio/{{pageObject.page_navigation[0].value}}>{{pageObject.page_navigation[0].name}}</a>
 			<div class="dropdown_menu">
 				<button id = "selected_dropdown_button"  class="dropdown_button">{{pageObject.page_navigation[1].name}}</button>
 				<div class="dropdown_content">
-					<a id = "selected_webpage" href={{pageObject.page_navigation_dropdown[0].value}}>{{pageObject.page_navigation_dropdown[0].name}}</a>
+					<a id = "selected_webpage" href=../{{pageObject.page_navigation_dropdown[0].value}}>{{pageObject.page_navigation_dropdown[0].name}}</a>
 					<a href="{pageObject.page_navigation[1].value}}">Link 2</a>
 					<a href="{pageObject.page_navigation[1].value}}">Link 3</a>
 					<a href="{pageObject.page_navigation[1].value}}">Link 3</a>
@@ -23,7 +24,7 @@
 					<a href="{pageObject.page_navigation[1].value}}">Link 3</a>
 				</div>
 			</div>
-			<a class = "outer_href"  href={{pageObject.page_navigation[2].value}}>{{pageObject.page_navigation[2].name}}</a>
+			<a class = "outer_href"  href=../portfolio/{{pageObject.page_navigation[2].value}}>{{pageObject.page_navigation[2].name}}</a>
 		</nav>
 		<header>
 			<div id="header_title">
@@ -37,8 +38,8 @@
 					<td>
 						<div id ="catalogue_div_left">
 							<ul class = "content_list">
-								<li><a href = "Projects GUI\project44 drag racing simulator/Java Drag Racing Simulator.html">Java Racing Environment Video</a></li>
-								<li><a href = "Projects GUI\project34 java mp3 player application/Java MP3 Player.html">Java MP3 Player Video</a></li>
+								<li><a href = "./Projects GUI\project44 drag racing simulator/Java Racing Environment.html">Java Racing Environment Video</a></li>
+								<li><a href = "./Projects GUI\project34 java mp3 player application/Java MP3 Player.html">Java MP3 Player Video</a></li>
 							</ul>
 						</div>
 					</td>
