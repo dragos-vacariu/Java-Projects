@@ -1,0 +1,17 @@
+#content_table h3 {
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:black;
+	font-family:Verdana;
+	font-size:1.3vw;
+	padding-top:1vw;
+	padding-left:1vw;
+	padding-bottom:1vw;
+	margin-top:0vw;
+	position:relative;
+	top:0vw;
+	color:white;
+	background-color:#995500;
+	text-shadow: 0.2vw 0.3vw black;
+	box-shadow:0vw -1vw 0.3vw #995500;
+}

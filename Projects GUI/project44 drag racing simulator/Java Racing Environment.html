@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html  ng-app="myApplication" ng-controller="Controller">
 	<head>
-		<title>{{pageObject.page_title}}</title>
+		<title>{{pageObject.page_title}} Java</title>
 		<meta charset = "UTF-8">
-		<link rel="stylesheet" href="../portfolio/website_resources/global/css/global.css">
+		<!--Global resources-->
+		<link rel="stylesheet" href="https://raw.githubusercontent.com/dragos-vacariu/portfolio/main/website_resources/global/css/global.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-		<script src="../portfolio/website_resources/global/scripts/global_script.js"></script>
+		<script src="https://raw.githubusercontent.com/dragos-vacariu/portfolio/main/website_resources/global/scripts/global_script.js"></script>
+		
+		<!--Local resources-->
+		<link rel="stylesheet" href="../../website_resources/css/repository_page.css">
 	</head>
 	<body>
 		<nav>
@@ -34,18 +38,15 @@
 			<h2>Catalogue:</h2>
 			<table id = "content_table">
 				<tr>
+					<h3>Java Racing Environment</h3>
+				<tr>
+				<tr>
 					<td>
-						<div id ="catalogue_div_left">
-							<ul class = "content_list">
-								<li><a href = "Projects GUI\project44 drag racing simulator/Java Drag Racing Simulator.html">Java Racing Environment Video</a></li>
-								<li><a href = "Projects GUI\project34 java mp3 player application/Java MP3 Player.html">Java MP3 Player Video</a></li>
-							</ul>
-						</div>
-					</td>
-					<td>
-						<div id="catalogue_div_right">
-							<img src="website_resources/images/mario.gif" alt="mario gif">
-						</div>
+						<video controls autoplay muted style="width: 80%; height:80%;">
+						  <source src="Java Racing Environment.mp4" type="video/mp4">
+						  <source src="Java Racing Environment.ogg" type="video/ogg">
+						Your browser does not support the video tag.
+						</video>
 					</td>
 				</tr>
 			</table>
