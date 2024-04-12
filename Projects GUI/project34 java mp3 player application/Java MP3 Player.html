@@ -17,14 +17,7 @@
 			<div class="dropdown_menu">
 				<button id = "selected_dropdown_button"  class="dropdown_button">{{pageObject.page_navigation[1].name}}</button>
 				<div class="dropdown_content">
-					<a id = "selected_webpage" href=../../../{{pageObject.page_navigation_dropdown[0].value}}>{{pageObject.page_navigation_dropdown[0].name}}</a>
-					<a href="{pageObject.page_navigation[1].value}}">Link 2</a>
-					<a href="{pageObject.page_navigation[1].value}}">Link 3</a>
-					<a href="{pageObject.page_navigation[1].value}}">Link 3</a>
-					<a href="{pageObject.page_navigation[1].value}}">Link 3</a>
-					<a href="{pageObject.page_navigation[1].value}}">Link 3</a>
-					<a href="{pageObject.page_navigation[1].value}}">Link 3</a>
-					<a href="{pageObject.page_navigation[1].value}}">Link 3</a>
+					<a ng-repeat="page in pageObject.page_navigation_dropdown" href=../../../{{page.value}}>{{page.name}}</a>
 				</div>
 			</div>
 			<a class = "outer_href"  href=../../../portfolio/{{pageObject.page_navigation[2].value}}>{{pageObject.page_navigation[2].name}}</a>
@@ -44,7 +37,10 @@
 			Your browser does not support the video tag.
 			</video>
 
-			<h4>The video description</h4>
+			<h4>Description:</h4>
+			<h4>This application was developed in JAVA using NetBeans 8.2 IDE and java.Swing GUI Interface.
+				<br><br>Simple MP3 Player Java Application
+			</h4>
 
 		</div>
 		<footer>

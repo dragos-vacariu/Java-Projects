@@ -17,7 +17,7 @@
 			<div class="dropdown_menu">
 				<button id = "selected_dropdown_button"  class="dropdown_button">{{pageObject.page_navigation[1].name}}</button>
 				<div class="dropdown_content">
-					<a ng-repeat="page in pageObject.page_navigation_dropdown" href=../{{page.value}}>{{page.name}}</a>
+					<a ng-repeat="page in pageObject.page_navigation_dropdown" href=../../../{{page.value}}>{{page.name}}</a>
 				</div>
 			</div>
 			<a class = "outer_href"  href=../../../portfolio/{{pageObject.page_navigation[2].value}}>{{pageObject.page_navigation[2].name}}</a>
@@ -36,8 +36,49 @@
 			  <source src="Java Racing Environment.ogg" type="video/ogg">
 			Your browser does not support the video tag.
 			</video>
-
-			<h4>The video description</h4>
+			<h4>Description:</h4>
+			<h4>
+			This application was developed in JAVA using NetBeans 8.2 IDE and java.Swing GUI Interface.</br></br>
+			
+			The environment is trying to simulate the Drag Racing behavior defined in older Need For Speed games:</br></br>
+			
+			The player has to compete against different AI opponents with different stats and characteristics such as: such as: 
+			top speed, acceleration, driving skills within 1:1 Race Events. The player progresses through by winning at 
+			least one event with the given opponent. The event is won by first who wins 2 of 3 rounds. Once an opponent is defeated
+			the next one become available. If the opponent wins 2 succesive races then the driver record resets such that the player will 
+			need to challenge the opponent again and win it again, in order to progress further. </br></br>
+			
+			A betting system was implemented in order to add a stake to
+			the race events. Placing a bet is one way to earn money, the amount of money that the player can bet on, 
+			depends on the driver records that the player and the given opponent has: wins vs losses. When 
+			the player wins the race the stake of the future bets with the given opponent is gonna decrease, 
+			and when the player loses the stake will raise. </br></br>
+			
+			The player also wins prizes through racing. The race prize also depend on the driver experience and also the person records that the 
+			player had with a particular opponnent.	</br></br>	
+			
+			About Cars: More cars become available in the Car Lot as the player progresses.
+			The performance of every car is customizable, there are improvement packages available for purchase within 
+			the Garage.  The player can own an unlimited amount of cars, and money up to billions. 
+			The cars owned get stored in the Safehouse.</br></br>
+			
+			About shifting gears: In older NFS games the player has to manually switch the gears and to synchronize 
+			with the RPM for a perfect gear shift. The perfect shifts is the ability of gearing at the proper RPM. Each perfect
+			shift boosts up the acceleration and gives a speed boost until the end of the race event. </br></br>
+			
+			About Collisions: A collision is the impact that the car has with the traffic - unfortunately, at that time, I lacked 
+			the means to create an environment capable of simulating physics, drawing graphics or supporting the rendenring of 
+			textures and animations in order to provide a game experience. A collision with the traffic will decrease the car speed and 
+			lower the acceleration until the end of the race event. </br></br>
+			
+			Carreer Completion: To complete the game the player has to defeat all the opponents in 1:1 race events. 
+			Defeating an opponent. The total number of opponents available is 110.</br></br>
+			
+			Player Experience: The amount of experience that the player gains depends on the perfomance 
+			shown on within the race event. More collisions will result in less amount of experience being gained whereas 
+			more perfect shifts, higher amount of experience being gained. Defeating high-skilled drivers, also increases 
+			the player's experience. Experience decreases the traffic that the player has to face.
+			</h4>
 
 		</div>
 		<footer>
