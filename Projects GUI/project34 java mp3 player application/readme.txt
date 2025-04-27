@@ -1,1 +1,2 @@
-Video available at: https://dragos-vacariu.github.io/Java-Projects/Projects%20GUI/project34%20java%20mp3%20player%20application/Java%20MP3%20Player.html
+Video available at: 
+https://dragos-vacariu.github.io/catalogue/Java-Projects/Java%20MP3%20Player.html
